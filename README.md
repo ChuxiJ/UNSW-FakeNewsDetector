@@ -53,6 +53,8 @@ ppt  视频文件
 
 [PaddleHub](https://github.com/PaddlePaddle/PaddleHub)
 
+[X2Paddle](https://github.com/PaddlePaddle/X2Paddle)
+
 # 相关论文网盘(更新中ing，包括官方的推荐论文):
 
 https://drive.google.com/open?id=19sByA1umoccB8FNZ3JcZQMLb8x6RYfUD
