@@ -51,7 +51,7 @@ ppt  视频文件
 
 [gobbli](https://github.com/RTIInternational/gobbli)
 
-[]
+[PaddleHub](https://github.com/PaddlePaddle/PaddleHub)
 
 # 相关论文网盘(更新中ing，包括官方的推荐论文):
 
