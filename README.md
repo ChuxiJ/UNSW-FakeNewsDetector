@@ -55,6 +55,37 @@ ppt  视频文件
 
 [X2Paddle](https://github.com/PaddlePaddle/X2Paddle)
 
+```python
+from urllib.request import urlopen
+from urllib.parse import quote
+import string
+import json
+def Convert(string): 
+    li = list(string.split(",")) 
+    return li 
+tag = input("今天您想搜索什么?\n")
+
+url = "https://vp.fact.qq.com/miniSearchResult?title=" + str(tag) + "&num=0&size=20&_=1568525989622"
+url = quote(url, safe=string.printable)
+response = urlopen(url, timeout=20)
+result = response.read().decode('utf-8','ignore').replace(u'\xa9', u'')
+
+output = []
+temp = Convert(result)
+index = 0
+for item in temp:
+    if "title" in item:
+        dict = {}
+        dict["title"] = item[9:-1] 
+        dict["result"] = 0 if temp[index + 1][-2] == "假" else 1 if temp[index + 1][-2] == "真" else 2 
+        output.append(dict)
+    index += 1
+
+print(output)
+output_2 = json.dumps(output)
+
+
+```
 # 相关论文网盘(更新中ing，包括官方的推荐论文):
 
 https://drive.google.com/open?id=19sByA1umoccB8FNZ3JcZQMLb8x6RYfUD
