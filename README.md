@@ -45,7 +45,7 @@ ppt  视频文件
 
 [pytorch-transformer](https://github.com/huggingface/pytorch-transformers)
 
-[第一次讨论分工脑图](https://coggle.it/diagram/XX3DAxz2ip44C8k1/t/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%A8%E8%AE%BA)
+[第二次讨论分工脑图](https://coggle.it/diagram/XX3DAxz2ip44C8k1/t/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%A8%E8%AE%BA)
 
 [NLP工具集HAN](https://github.com/hankcs/pyhanlp)
 
