@@ -86,6 +86,26 @@ output_2 = json.dumps(output)
 
 
 ```
-# 相关论文网盘(更新中ing，包括官方的推荐论文):
 
-https://drive.google.com/open?id=19sByA1umoccB8FNZ3JcZQMLb8x6RYfUD
+# 步骤三: 构建模型池
+
+1. XLNET
+2. RoBERTa
+3. DilletBERT
+4. ALNET
+5. ERNIE
+
+五种预训练模型
+
+- 'text'
+- 'pre_20_words'
+- 'pre_40_words'
+- 'demoj'
+- 'first_sentence'
+- 'last_centence'
+- 'translate'
+- 're_translate'
+
+# 整合的数据网盘
+
+https://drive.google.com/open?id=1MlsqS-QnVnisE0HHfcsK4bYkEmyXcc14
