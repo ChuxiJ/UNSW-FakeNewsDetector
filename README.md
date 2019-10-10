@@ -88,12 +88,11 @@ output_2 = json.dumps(output)
 ```
 
 # 步骤三: 构建模型池
-
-1. XLNET
-2. RoBERTa
-3. DilletBERT
-4. ALNET
-5. ERNIE
+- [x] ALBert
+- [ ] XLNET
+- [ ] RoBERTa
+- [ ] DilletBERT
+- [ ] ERNIE
 
 五种预训练模型
 
